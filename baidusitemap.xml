@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://blog.allenko.win/2015/11/17/hello-world/</loc>
+    <lastmod>2015-11-17T05:49:11.013Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2015-11-17T05:49:11.013Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.allenko.win/2015/11/17/WhyIComeHere/</loc>
+    <lastmod>2015-11-17T05:49:11.013Z</lastmod>
+    <data>
+        <display>
+        <title>为什么要建博客</title>
+        <pubTime>2015-11-17T01:06:29.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://blog.allenko.win/2015/11/16/HowToInstallHexo/</loc>
+    <lastmod>2015-11-17T05:49:11.013Z</lastmod>
+    <data>
+        <display>
+        <title>安装Hexo</title>
+        <pubTime>2015-11-16T14:08:21.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+        <tag>Setup</tag>
+         
+        <tag>安装</tag>
+         
+         
+           
+             
+              <breadCrumb title="Hexo" url="http://blog.allenko.win/categories/Hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+</urlset>
