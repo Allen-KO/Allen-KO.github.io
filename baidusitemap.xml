@@ -4,15 +4,26 @@
 
     
   <url>
-    <loc>http://blog.allenko.win/2015/11/17/hello-world/</loc>
-    <lastmod>2015-11-17T05:49:11.013Z</lastmod>
+    <loc>http://blog.allenko.win/2015/11/17/hexosetup/</loc>
+    <lastmod>2015-11-17T08:12:01.815Z</lastmod>
     <data>
         <display>
-        <title>Hello World</title>
-        <pubTime>2015-11-17T05:49:11.013Z</pubTime>
+        <title>用Hexo搭建属于自己的Blog</title>
+        <pubTime>2015-11-17T07:15:21.000Z</pubTime>
         
+        <tag>Hexo</tag>
+         
+        <tag>Setup</tag>
+         
+        <tag>安装</tag>
+         
+        <tag>教程</tag>
+         
          
            
+             
+              <breadCrumb title="Hexo" url="http://blog.allenko.win/categories/Hexo/"/>
+          
         </display>
     </data>
     </url>
@@ -28,30 +39,6 @@
         
          
            
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://blog.allenko.win/2015/11/16/HowToInstallHexo/</loc>
-    <lastmod>2015-11-17T05:49:11.013Z</lastmod>
-    <data>
-        <display>
-        <title>安装Hexo</title>
-        <pubTime>2015-11-16T14:08:21.000Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-        <tag>Setup</tag>
-         
-        <tag>安装</tag>
-         
-         
-           
-             
-              <breadCrumb title="Hexo" url="http://blog.allenko.win/categories/Hexo/"/>
-          
         </display>
     </data>
     </url>

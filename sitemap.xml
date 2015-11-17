@@ -2,17 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.allenko.win/2015/11/17/hello-world/</loc>
-    <lastmod>2015-11-17T05:49:11.013Z</lastmod>
+    <loc>http://blog.allenko.win/2015/11/17/hexosetup/</loc>
+    <lastmod>2015-11-17T08:12:01.815Z</lastmod>
   </url>
   
   <url>
     <loc>http://blog.allenko.win/2015/11/17/WhyIComeHere/</loc>
-    <lastmod>2015-11-17T05:49:11.013Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://blog.allenko.win/2015/11/16/HowToInstallHexo/</loc>
     <lastmod>2015-11-17T05:49:11.013Z</lastmod>
   </url>
   
