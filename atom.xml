@@ -3,9 +3,9 @@
   <title><![CDATA[AllenKO]]></title>
   <subtitle><![CDATA[Technology Blog]]></subtitle>
   <link href="/atom.xml" rel="self"/>
-  <link href="http://blog.allenko.win/"/>
+  <link href="http://blog.allenko.cn/"/>
   <updated>2015-11-17T08:12:01.815Z</updated>
-  <id>http://blog.allenko.win/</id>
+  <id>http://blog.allenko.cn/</id>
   
   <author>
     <name><![CDATA[Allen KO]]></name>
@@ -16,8 +16,8 @@
   
   <entry>
     <title><![CDATA[用Hexo搭建属于自己的Blog]]></title>
-    <link href="http://blog.allenko.win/2015/11/17/hexosetup/"/>
-    <id>http://blog.allenko.win/2015/11/17/hexosetup/</id>
+    <link href="http://blog.allenko.cn/2015/11/17/hexosetup/"/>
+    <id>http://blog.allenko.cn/2015/11/17/hexosetup/</id>
     <published>2015-11-17T07:15:21.000Z</published>
     <updated>2015-11-17T08:12:01.815Z</updated>
     <content type="html"><![CDATA[<h4 id="什么是Hexo">什么是Hexo</h4><p>简单的来说，Hexo是一款基于Node.JS的静态博客框架，官方给它的描述是“A fast, simple &amp; powerful blog framework”。据说它是出自台湾大学生Tommy Chen之手，官方网站是<a href="https://hexo.io" target="_blank" rel="external">https://hexo.io</a>，不由感叹台湾大学生的创造力，当然大陆的大学生也是很厉害的，只不过表现在不同方面而已。说远了，言归正传，它有什么特殊之处呢，我没有怎么接触过Node.JS，所以在其代码方面没有什么发言权，就说一下使用上的特点，首先生成速度非常快，可以使用Markdown进行编辑，操作非常简单，一键生成部署到GitHub Pages等（当然自己有空间的部署在自己的空间上也是OK的），所有平台可用，还有好多主题啊、插件啊之类的。<br><a id="more"></a><br><br></p>
@@ -46,15 +46,15 @@
     
     </summary>
     
-      <category term="Hexo" scheme="http://blog.allenko.win/tags/Hexo/"/>
+      <category term="Hexo" scheme="http://blog.allenko.cn/tags/Hexo/"/>
     
-      <category term="Setup" scheme="http://blog.allenko.win/tags/Setup/"/>
+      <category term="Setup" scheme="http://blog.allenko.cn/tags/Setup/"/>
     
-      <category term="安装" scheme="http://blog.allenko.win/tags/%E5%AE%89%E8%A3%85/"/>
+      <category term="安装" scheme="http://blog.allenko.cn/tags/%E5%AE%89%E8%A3%85/"/>
     
-      <category term="教程" scheme="http://blog.allenko.win/tags/%E6%95%99%E7%A8%8B/"/>
+      <category term="教程" scheme="http://blog.allenko.cn/tags/%E6%95%99%E7%A8%8B/"/>
     
-      <category term="Hexo" scheme="http://blog.allenko.win/categories/Hexo/"/>
+      <category term="Hexo" scheme="http://blog.allenko.cn/categories/Hexo/"/>
     
   </entry>
   
