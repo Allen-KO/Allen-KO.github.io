@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Technology Blog]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://blog.allenko.cn/"/>
-  <updated>2015-11-17T08:12:01.815Z</updated>
+  <updated>2015-11-25T06:52:24.185Z</updated>
   <id>http://blog.allenko.cn/</id>
   
   <author>
@@ -13,6 +13,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Linux环境下RPM方式JDK安装及配置]]></title>
+    <link href="http://blog.allenko.cn/2015/11/25/jdkinstall/"/>
+    <id>http://blog.allenko.cn/2015/11/25/jdkinstall/</id>
+    <published>2015-11-25T05:48:22.000Z</published>
+    <updated>2015-11-25T06:52:24.185Z</updated>
+    <content type="html"><![CDATA[<h4 id="1-_jdk下载">1. jdk下载</h4><p>这个到java的<a href="http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html" target="_blank" rel="external">官方网站</a>下载自己需要的版本就好了，这里下载了jdk1.7版本的，选择下载了rpm包jdk-7u79-linux-x64.rpm。</p>
+<h4 id="2-_rpm安装">2. rpm安装</h4><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rpm -ivh jdk&#23433;&#35013;&#21253;&#30340;&#30446;&#24405;/jdk-7u79-linux-x64.rpm</span><br></pre></td></tr></table></figure>
+<p><strong><em>解释一下：</em></strong><br>-i,–install  表示安装软件包 install package(s)<br>-v,–verbose  表示安装过程中输出软件包更多的信息 provide more detailed output<br>-h,–hash     表示显示安装进度 print hash marks as package installs (good with -v)</p>
+<h4 id="3-_配置环境变量">3. 配置环境变量</h4><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim /etc/profile</span><br></pre></td></tr></table></figure>
+<p>在最后添加<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">export JAVA_HOME=/usr/java/jdk1.7.0_79</span><br><span class="line">export JRE_HOME=$JAVA_HOME/jre</span><br><span class="line">export PATH=$PATH:$JAVA_HOME/bin</span><br><span class="line">export CLASSPATH=.:$JAVA_HOME/lib:$JRE_HOME/lib</span><br></pre></td></tr></table></figure></p>
+<p>保存文件，然后执行以下命令使配置文件生效即可。<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source /etc/profile</span><br></pre></td></tr></table></figure></p>
+<p>最后测试一下<br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># java -version</span><br><span class="line">java version &#34;1.7.0_79&#34;</span><br><span class="line">Java(TM) SE Runtime Environment (build 1.7.0_79-b15)</span><br><span class="line">Java HotSpot(TM) 64-Bit Server VM (build 24.79-b02, mixed mode)</span><br></pre></td></tr></table></figure></p>
+<p><strong>至此，安装完成！</strong></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h4 id="1-_jdk下载">1. jdk下载</h4><p>这个到java的<a href="http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html" target="_b]]>
+    </summary>
+    
+      <category term="Java" scheme="http://blog.allenko.cn/tags/Java/"/>
+    
+      <category term="jdk" scheme="http://blog.allenko.cn/tags/jdk/"/>
+    
+      <category term="安装" scheme="http://blog.allenko.cn/tags/%E5%AE%89%E8%A3%85/"/>
+    
+      <category term="Java" scheme="http://blog.allenko.cn/categories/Java/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[用Hexo搭建属于自己的Blog]]></title>
